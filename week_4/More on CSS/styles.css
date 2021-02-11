@@ -1,0 +1,53 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+.nav-bar {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    margin: 10px;
+    border: 2px solid black;
+    background-color: rgb(55,44,22,.4);
+}
+.blog-post1{
+    border: 3px solid black;
+    background-color: lightgrey;
+    
+    padding: 15px;
+   
+}
+
+.text{margin-top: 20px;}
+
+.menu{
+    position: relative;
+}
+
+.pic1{
+    float: left;
+    height: 100px;
+    width: 100px;
+}
+
+.blog-post2{
+    border: 3px solid black;
+    background-color: lightgrey;
+    
+    padding: 15px;
+   
+}
+.img2{float: left;
+    height: 100px;
+    width: 100px;}
+
+    .blog-post3{
+        border: 3px solid black;
+        background-color: lightgrey;
+        
+        padding: 15px;
+       
+    }
+    .img3{float: left;
+        height: 100px;
+        width: 100px;}
