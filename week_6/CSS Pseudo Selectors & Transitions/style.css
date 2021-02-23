@@ -1,0 +1,107 @@
+body{
+    margin: 5px;
+    padding: 5px;
+    
+    
+}
+
+#box1{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    background-color: cornflowerblue;
+    transition: background-color linear 1s, width 1s linear;
+}
+
+p{
+    text-align: center;
+    margin: 5px;
+    padding: 50px;
+}
+
+#box1:hover{
+    background-color: aqua;
+    width: 300px;
+    border: saddlebrown dotted;
+}
+
+
+
+#box2{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    background-color: cornflowerblue;
+    transition:background-color linear 1s, width 1s linear;
+}
+
+
+
+#box2:hover{
+    box-shadow: 10px 10px black;
+    border-bottom-left-radius: 20%;
+    border-top-right-radius: 20% ;
+    width: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: darkolivegreen;
+}
+
+
+#box3{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    background-color: cornflowerblue;
+    transition: width 1s linear, height 1s linear;
+}
+
+#box3:hover{
+    height: 400px;
+    width: 400px;
+    opacity: 50%;
+    font-size: large;
+    font-weight: bold;
+}
+
+
+#box4{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    background-color: cornflowerblue;
+    transition: width 1s linear, height 1s linear;
+}
+
+#box4:hover{
+    width: 100px;
+    height: 250px;
+    border:brown dashed 5px;
+}
+
+#box5{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    background-color: cornflowerblue;
+}
+
+#box5:hover{
+    border-radius: 20%;
+    border: 6px palegreen dotted;
+    padding-left: 60px;
+    text-align: right;
+}
+
+
+#box6{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    background-color: cornflowerblue;
+}
+
+#box6:hover{
+    border:cyan groove 5px;
+    background-color: deeppink;
+    font-style: italic;
+}
