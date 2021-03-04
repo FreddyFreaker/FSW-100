@@ -100,7 +100,9 @@
   }
   
 
-  
+  main{
+    text-align: center;
+  }
  
   
   
@@ -149,12 +151,7 @@ border: 2px solid black;
 
 }
 
-#list{
-  border: 2px solid black;
-  width: 40%;
-  list-style:inside;
-  padding: 4px;
-}
+
 
 
 
