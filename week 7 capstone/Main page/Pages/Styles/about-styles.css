@@ -79,7 +79,17 @@
     #founder{
       display: grid;
       grid-column: 2/2;
+      transition: width 2s;
+      width: 400px;
+      height: 400px;
+      
      
+      
+    }
+    #founder:hover{
+      transition: width 2s;
+      width: 600px;
+      height: 600px;
       
     }
 
