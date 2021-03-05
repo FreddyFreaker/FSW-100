@@ -40,6 +40,10 @@
     background-color: #ddd;
     color: black;
   }
+
+  .active{
+    background-color:darkgray;  
+  }
   
   /* Column container */
   .row {  

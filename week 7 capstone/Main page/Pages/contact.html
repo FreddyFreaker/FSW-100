@@ -7,7 +7,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@283&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
         <!-- Header -->
@@ -16,13 +16,20 @@
         
     </header>
   
-         <!-- Navigation Bar -->
+    
+  
+  
         <nav class="navbar">
-            <a href="main.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="contact.html">Contact</a>
+             <a href="main.html" class=""><i class="fa fa-fw fa-home"></i>Home</a>
+              <a href="about.html" ><i class="fa fa-fw fa-user"></i>About</a>
+              <a href="contact.html" class="active"><i class="fa fa-fw fa-envelope"></i>Contact</a>
+                  
+          </nav>
+  
+        
+     
                 
-        </nav>
+        
 
     <main id="contact">
             <h2>Contact us</h2>
@@ -37,10 +44,29 @@
             
         
 
-        <form id=>
-          <p>Email: <input type="email"></p>
-          <p>Phone#: <input type="tel"></p>
-          <p>Full Name: <input type="text"></p>
+        <form >
+            <table id="input">
+                <tr>
+                    <th><p>Email</p></th>
+                    <th><input type="email"></th>
+                    
+                </tr>
+
+                <tr>
+                    <th>Phone#</th>
+                    <th><input type="tel"></th>
+                </tr>
+
+                <tr>
+                    <th>Full Name</th>
+                    <th><input type="text"></th>
+                </tr>
+
+            </table>
+
+
+            
+          
           <p>Questions Or Comment</p>
           <span id="comment" role="textbox" contenteditable></span>
         

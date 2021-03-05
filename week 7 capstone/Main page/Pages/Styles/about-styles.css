@@ -42,11 +42,57 @@
       color: black;
     }
 
+    .active{
+      background-color:darkgray;
+
+
+      
+      
+    }
+
     .footer {
       padding: 20px;
       text-align: center;
       background: #ddd;
     }
+
+    main{
+      display: grid;
+      grid-template-columns: repeat(2,fr);
+      
+      padding: 3px;
+      margin: 3px;
+      
+
+
+
+    }
+
+    #about{
+      display: grid;
+      grid-column: 1/2;
+      
+      width: 50%;
+      
+    }
+
+    #founder{
+      display: grid;
+      grid-column: 2/2;
+     
+      
+    }
+
+    #partners{
+      display: grid;
+      grid-column: 1/2;
+      
+
+    }
+
+    
+
+
 }
 
 
